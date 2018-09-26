@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+   <meta http-equiv="x-ua-compatible" content="IE=edge"  >
+ <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+
+
+ 
+    <link rel="Stylesheet" href="http://js.arcgis.com/3.10/js/dojo/dijit/themes/tundra/tundra.css" />
+    <link rel = "stylesheet" href="http://js.arcgis.com/3.10/js/esri/css/esri.css" />
+	  <script src="http://js.arcgis.com/3.10/" type="text/javascript"></script>
+	          <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <script src="multimap2.js" type="text/javascript"></script> 
+
+<title>Multimap</title>
+<style>
+#body,#window{
+height: 100%;
+width: 100%
+}
+#mapDiv{
+height:800px;
+width:100%;
+overflow:hidden;
+}
+#mapPane0{
+float: left;
+height:500px ;
+width: 33%;
+}
+#mapPane1{
+float:left;
+height:500px;
+width:33%;
+}
+#mapPane2{
+float:left;
+height:500px;
+width:33%;
+
+}
+#select{
+left:20px
+top:15px
+width:250px;
+height: 30px;
+}
+#selectmap0,#selectmap1,#selectmap2{
+visibility: hidden;
+z-index:10;
+}
+.esriLegendServiceLabel {     display: none; } 
+.radioLabelHidden{
+visibility: hidden;
+}
+.radioLabelVisible{
+visibility: visible;
+}
+</style>
+
+</head>
+<body class="tundra" >
+<div  id="window" >
+<div id="select" ></div>
+<div id="mapDiv">
+<div id="mapPane0" >
+<input id="selectmap0"   />
+<label id="radioLabel0" class="radioLabelHidden">change this map</label><br>
+<div id="map0">	</div><br>
+<div id="legendmap0" ></div>
+</div>
+<div id="mapPane1" >
+<input id="selectmap1"  />
+<label id="radioLabel1" class="radioLabelHidden">change this map</label><br>
+<div id="map1" ></div><br>
+<div id="legendmap1" ></div>
+</div>
+<div id="mapPane2" >
+<input id="selectmap2"  />
+<label id="radioLabel2" class="radioLabelHidden">change this map</label><br>
+<div id="map2" ></div><br>
+<div id="legendmap2" ></div>
+</div>
+<br style="clear: left;" />
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,151 @@
+html,
+body,
+  {
+
+  margin: 0 !important;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial;
+}
+
+.row {
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+}
+
+.col {
+  padding: 8px;
+  border: 2px solid darkgray;
+  margin-bottom: 16px;
+}
+
+canvas {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#mapDiv {
+  z-index: -1;
+
+}
+
+#map_container {
+
+  padding-bottom: 0px;
+}
+
+
+#map_root.container {
+  height: 100%;
+  padding-bottom: 0px;
+
+}
+
+.imgButton2 {
+  box-shadow: 5px 5px 6px #888888;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 100px;
+  z-index: 98;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.topButton {
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 5px 5px 6px #888888;
+  background-color: #f6f3e7;
+  /*#637851 #f6f3e7*/
+  ;
+
+}
+
+
+
+.esriLegendColorRampLabel {
+  visibility: hidden !important;
+}
+
+.esriLegendLayerLabel {
+  visibility: hidden !important;
+  font-weight: bold;
+}
+
+.esriLegendLayer tr {
+
+  font-size: 8pt;
+  float: left;
+}
+
+
+.esriLegendServiceLabel {
+  visibility: hidden !important;
+  font-size: 8pt;
+  font-weight: bold;
+
+}
+
+.dijitTooltipContainer {
+  width: 150px;
+  font-size: 10px !important;
+
+}
+
+.claro .dijitPopup .dijitMenuPopup {
+  font-size: 12px !important;
+  width: 50px;
+
+}
+
+.claro .dijitSelectFocused {
+  border: 1px solid black;
+}
+
+.claro .dijitMenu {
+  border: 1px solid black;
+  width: 120px;
+}
+
+.claro .dijitMenuItemSelected {
+  border-color: InfoText;
+  background-color: khaki;
+}
+
+.claro .dijitMenu .dijitMenuItem .dijitMenuItemSelected td {
+  border-color: InfoText;
+  background-color: khaki;
+  width: 200px;
+}
+
+#print {
+  position: absolute;
+  font-family: Helvetica, sans-serif;
+  color: #37432E;
+  /*#888887;*/
+  left: 455px;
+  top: 410px;
+  z-index: 99;
+}
+
+#hyperL {
+  position: absolute;
+  left: 200px;
+  top: 375px !important;
+  height: 20px;
+  z-index: 100;
+  font-size: 10px;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  font-weight: 900;
+  text-shadow:
+    1px 1px 1px #FFFFFF,
+    -1px 1px 1px #FFFFFF,
+    -1px -1px 1px #FFFFFF,
+    1px -1px 1px #FFFFFF;
+}
+
+.hideHyper {
+  display: none;
+}
