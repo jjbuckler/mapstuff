@@ -17,18 +17,36 @@
     <!-- ArcGIS JS 4 -->
     <link rel="stylesheet" href="https://js.arcgis.com/4.9/esri/css/main.css">
 
+
     <style>
-        html,
-    body {
+        html, body {
       margin: 0;
       padding: 0;
       height: 100%;
-      width: 100%;
     }
   </style>
 
-<body>
-    <div id="viewDiv"></div>
+</head>
+
+<body class="calcite-maps calcite-nav-top">
+    <div class="container">
+        <nav class="navbar calcite-navbar navbar-fixed-top calcite-text-light calcite-bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+        </nav>
+    </div>
+
+
+    <div class="calcite-map calcite-map-absolute">
+
+
+        <div id="viewDiv"></div>
+
+
+    </div>
+
+
+
+    <!---- <div id="viewDiv"></div> -->
 
     <script type="text/javascript">
         var dojoConfig = {
